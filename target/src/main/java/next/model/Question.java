@@ -86,4 +86,8 @@ public class Question {
 			return false;
 		return true;
 	}
+
+	public void updateCommentCount(int size) {
+		this.countOfComment = size;
+	}
 }
